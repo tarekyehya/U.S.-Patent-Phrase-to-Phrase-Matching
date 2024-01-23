@@ -9,7 +9,7 @@ Kaggle competition
     -  working more and more with the inputs and the data that will finetune with.
     -  testing coustom loss function, pearson correlation, worked well with the first eboach only!, need more debug but the same was worked with the pytorch model.
     -  working with the task as a classification task with only one label.
-- ### second approach (Feature extraction):
+- ### second approach:
     -  taking the last hidden state of the encoder based model ( like debarta ) then build some layears like an decoder above it.
     -  training the whole model with hyperpramters that were tuning well
     -  using custom loss function with some tricks, pearson correlation (pearson correlation is the evaluate metric of the competition) worked better than BCEWithLogitsLoss
