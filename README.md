@@ -3,8 +3,8 @@ Kaggle competition
 
 
 ### we have tow approaches :
-- #### first : 
-    -  fine-tuning with transformers
+- #### First : 
+    -  full fine-tuning with transformers.
     -  useing best practice hyperpramters from other comptitions wthout tuning them (i like to spend more time with the second approach^^) 
     -  working more and more with the inputs and the data that will finetune with.
     -  testing coustom loss function, pearson correlation, worked well with the first eboach only!, need more debug but the same was worked with the pytorch model.
